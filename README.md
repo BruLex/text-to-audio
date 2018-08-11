@@ -1,5 +1,14 @@
 # Text to audio
-Bash scripts which generate speech using google Text-to-Speech API
+Bash scripts which generate speech using google Cloud Text-to-Speech API
+
+Used API:
+- [Cloud Text-to-Speech API](https://console.cloud.google.com/apis/library/texttospeech.googleapis.com)
+
+Before use you need to install:
+- [jq](https://stedolan.github.io/jq/) - This is a lightweight and flexible command-line JSON processor.
+~~~
+$ sudo apt install jq
+~~~
 
 All audio files will be saved in ```./out``` folder.
 
