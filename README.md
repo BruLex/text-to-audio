@@ -1,4 +1,4 @@
-# text-to-audio
+# Text to audio
 Bash scripts which generate speech using google Text-to-Speech API
 
 All audio files will be saved in ```./out``` folder.
@@ -12,8 +12,8 @@ Expample: ```$ ./texttospeech.sh YOUR_GOOGLE_API_KEY hello "Hello world!"```. Af
 
 
 To generate speech from file use `filetospeech.sh` script with arguments:
-- Second: GOOGLE_API_KEY
-- First: Path to file which text needed to be voiced
+- First: GOOGLE_API_KEY
+- Second: Path to file which text needed to be voiced
 
  Structure  of file must be:
 
